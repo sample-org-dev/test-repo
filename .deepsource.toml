@@ -7,5 +7,3 @@ enabled = true
 [[analyzers]]
 name = "@test-namespace/todo-checker"
 enabled = true
-
-
