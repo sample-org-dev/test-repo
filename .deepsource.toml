@@ -5,5 +5,5 @@ name = "javascript"
 enabled = true
 
 [[analyzers]]
-name = "@test-namespace/todo-checker"
+name = "@test-namespace/todo-analyzer"
 enabled = true

@@ -9,6 +9,7 @@ const hasYarn = (): boolean => {
   }
 };
 
+// TODO: Check
 export const getPackageManager = (useNpm: boolean): string => {
   if (!useNpm && hasYarn()) {
     return 'yarn';
