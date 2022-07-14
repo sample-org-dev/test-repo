@@ -1,5 +1,6 @@
 import * as execa from 'execa';
 
+// TODO: Check this
 const hasYarn = (): boolean => {
   try {
     execa.commandSync('yarn --version');
