@@ -5,5 +5,6 @@ export const error = (msg: string): void =>
 
 export const info = (msg: string): void => console.info(kleur.bold().cyan(msg));
 
+// TODO: Check this.
 export const success = (msg: string): void =>
   console.log(kleur.bold().green(msg));
